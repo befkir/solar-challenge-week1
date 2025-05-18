@@ -69,15 +69,19 @@ pip install -r requirements.txt
 
 # Running the Project
 
-The source code for the project can be found in the src/ directory.
+All analysis code is provided as Jupyter notebooks in the notebooks/ directory. To run the analyses:
 
-Notebooks for experimentation and exploration are located in the notebooks/ directory.
+1. Activate your virtual environment (see above).
 
-Unit tests for the project are located in the tests/ directory. You can run the tests using a testing framework like pytest:
+2. open one of the notebooks:
 
-```
-pytest tests/
-```
+* notebooks/benin_eda.ipynb
+
+* notebooks/sierraleone_eda.ipynb
+
+* notebooks/togo_eda.ipynb
+
+Execute the cells in each notebook to reproduce the exploratory data analysis and visualizations.
 
 # CI/CD Workflow
 
