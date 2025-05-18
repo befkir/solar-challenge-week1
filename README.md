@@ -40,10 +40,10 @@ pip (Python package installer)
    Start by cloning the repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/solar-challenge-week1.git
-cd solar-challenge-week1 2. Create a Virtual Environment
+git clone https://github.com/befkir/solar-challenge-week1.git
+cd solar-challenge-week1 
 ```
-
+2. Create a Virtual Environment
 For isolating dependencies, it's recommended to create and activate a virtual environment. Here's how to do it:
 
 On macOS/Linux:
@@ -57,9 +57,10 @@ On Windows:
 
 ```
 python -m venv env
+.\env\Scripts\activate 
 ```
 
-.\env\Scripts\activate 3. Install Dependencies
+3. Install Dependencies
 Once your virtual environment is active, install the required Python dependencies:
 
 ```
