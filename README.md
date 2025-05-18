@@ -6,9 +6,7 @@ Welcome to the Solar Challenge Week 1 project repository! This repository contai
 
 The repository is organized into the following structure:
 
-bash
-Copy
-Edit
+```
 ├── .vscode/
 │ └── settings.json # VS Code workspace settings
 ├── .github/
@@ -27,7 +25,7 @@ Edit
 │ ├── **init**.py # Initialization file
 │ └── README.md # Scripts-related documentation
 └── env/ # Virtual environment folder (exclude from version control)
-
+```
 # Prerequisites
 
 To get started, ensure you have the following installed on your system:
